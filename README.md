@@ -18,7 +18,7 @@ This is a **practice project** to improve my web development skills — not my f
 ---
 
 ## 🚀 Live Demo
-[Click here to view my live practice portfolio](https://yourusername.github.io/your-portfolio/)  
+[Click here to view my live practice portfolio](https://cveerababu15.github.io/Tailwind_Project/)  
 
 ---
 
