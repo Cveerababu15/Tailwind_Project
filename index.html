@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Tailwind Project</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen">
+
+<!-- Navbar -->
+<nav class="bg-black text-white p-4 w-full flex justify-between items-center fixed top-0 left-0 z-50">
+  <h1 class="font-bold text-xl">VEERA-😎</h1>
+  <ul class="hidden md:flex gap-4 cursor-pointer" id="menu">
+    <li class="hover:text-orange-400">Home</li>
+    <li class="hover:text-orange-400">About</li>
+    <li class="hover:text-orange-400">Contact</li>
+    <li class="hover:text-orange-400">Projects</li>
+<a href="Veera's-Resume.pdf" download="Veera's-Resume.pdf" class="relative"><li class="bg-orange-800 px-4 py-2 rounded-lg hover:bg-orange-600">Resume</li></a>
+  </ul>
+  <span class="md:hidden text-2xl cursor-pointer" id="hamburger">☰</span>
+</nav>
+
+<!-- Main Hero Section -->
+<main class="mt-[67px] w-full bg-gray-600 p-4 flex flex-col md:flex-row justify-between items-center gap-6">
+  <div class="flex flex-col gap-3 md:w-1/2">
+    <h1 class="text-[32px] md:text-[40px] text-white font-bold">Welcome to my website</h1>
+    <p class="text-lg md:text-[22px] font-bold text-white">I am Veera! from Andhrapradesh, India</p>
+    <p class="text-base md:text-[20px] text-white">I am a web developer</p>
+  </div>
+  <img src="veera.jpg"
+    alt="Allu-Arjun"
+    class="w-48 h-48 md:w-[19rem] md:h-[19rem] object-cover rounded-full">
+</main>
+
+<!-- About Section -->
+<section class="bg-gray-100 py-12">
+    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+
+      <div class="flex justify-center">
+        <img src="myimage.jpg" alt="Your Name" class="rounded-2xl shadow-lg w-80">
+      </div>
+      
+      <div class="flex flex-col justify-center items-center">
+        <h2 class="text-4xl font-bold text-gray-800 mb-4">About Me</h2>
+        <p class="text-gray-600 mb-4">
+          I’m Veera, a passionate front-end developer who loves building creative and user-friendly websites. 
+          My journey started in college where I discovered my love for code, and since then, I’ve been learning every day.
+        </p>
+        <ul class="space-y-2">
+          <li>🎓 <strong>Education:</strong> B.Tech in Computer Science</li>
+          <li>💡 <strong>Passion:</strong> Web Development & AI</li>
+          <li>🏆 <strong>Achievements:</strong> Built 10+ projects</li>
+        </ul>
+      </div>
+  
+    </div>
+  </section>
+  
+  
+
+<!-- Skills Sections-->
+<section class="bg-gray-900 py-12">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 text-white">My Skills</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-2">Frontend Development</h3>
+          <p class="text-gray-600">HTML, CSS, JavaScript, Tailwind CSS, React.js</p>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-2">Backend Development</h3>
+          <p class="text-gray-600">Python, Node.js, SQL, APIs</p>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-2">Tools & Others</h3>
+          <p class="text-gray-600">Git, GitHub, VS Code, Docker</p>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  
+<!-- Projects sections-->
+<section class="bg-gray-50 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">
+        My Projects
+      </h2>
+      <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+        <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col  gap-3">
+            <img src="my-work-1.png" alt="">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Image-Search-Engine</h3>
+          <p class="text-gray-600 flex-grow">
+            A Image Searchwebsite built with HTML, CSS, JS, and using The Unsplash-ApI.
+          </p>
+          <a href="https://cveerababu15.github.io/Text_2_Image/" target="_blank" 
+             class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
+            View Project
+          </a>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col  gap-3">
+            <img src="my-work-2.png" alt="">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Weather App</h3>
+          <p class="text-gray-600 flex-grow">
+            A weather forecasting app using OpenWeather API and Tailwind CSS.
+          </p>
+          <a href="https://cveerababu15.github.io/Weather_Webiste/" target="_blank" 
+             class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
+            View Project
+          </a>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col  gap-3">
+            <img src="my-work-3.png" alt="">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Expensive-tracker!</h3>
+          <p class="text-gray-600 flex-grow">
+            It is a Expensive-Tracker ,and mainly use for tracking your expenses.
+          </p>
+          <a href="https://cveerababu15.github.io/Expensive-Tracker/" target="_blank" 
+             class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
+            View Project
+          </a>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg p-6 flex flex-col  gap-3">
+            <img src="my-work-4.png" alt="">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Voice-Assistance</h3>
+          <p class="text-gray-600 flex-grow">
+        It is a Virtual-Assistance,it works by using your voice commands to perform various tasks.
+          </p>
+          <a href="https://cveerababu15.github.io/Veera-s-Assistance/" target="_blank" 
+             class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
+            View Project
+          </a>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+ <!-- Projects sections-->
+  
+
+<!-- Footer -->
+<footer class="w-full bg-gray-800 text-white flex flex-col md:flex-row justify-between items-center p-4 gap-4">
+  <h1 class="text-center">Connect with me</h1>
+  <div class="text-center md:text-left">
+    <h1>Hello</h1>
+    <p>Copyright 2023</p>
+  </div>
+  <ul class="flex gap-4 cursor-pointer">
+    <li class="hover:text-orange-400">LinkedIn</li>
+    <li class="hover:text-orange-400">Instagram</li>
+    <li class="hover:text-orange-400">Github</li>
+  </ul>
+</footer>
+
+<script>
+// 
+  const hamburger = document.getElementById("hamburger");
+  const menu = document.getElementById("menu");
+  hamburger.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+    menu.classList.toggle("flex");
+    menu.classList.toggle("flex-col");
+    menu.classList.toggle("absolute");
+    menu.classList.toggle("bg-black");
+    menu.classList.toggle("top-[60px]");
+    menu.classList.toggle("right-2");
+    menu.classList.toggle("p-4");
+  });
+</script>
+
+</body>
+</html>
