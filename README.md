@@ -29,9 +29,6 @@ This is a **practice project** to improve my web development skills — not my f
 1. **Desktop View**  
    ![Hero Section](hero.png)
 
-2. **Mobile View**  
-   ![Mobile View](mobile.png)
-
 ---
 
 ## 🛠 Technologies Used
