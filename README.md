@@ -23,11 +23,8 @@ This is a **practice project** to improve my web development skills — not my f
 ---
 
 ## 📸 Screenshots
-
-> Replace the placeholders below with your actual screenshots.
-
 1. **Desktop View**  
-   ![Hero Section](hero.png)
+   ![Hero Section](veera'portfolia-destop-version.png)
 
 ---
 
